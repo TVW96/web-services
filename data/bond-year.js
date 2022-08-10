@@ -22,7 +22,7 @@
 				"Name":"Steve Austin",
 				"Year":1997,
 				"BodyPart":"Neck",
-				"Details":"Broken neck suffered by Steve Austin in 1997, and the subsequent surgery he was forced to have in 1999 which put him out for a year.",
+				"Details":"The broken neck suffered by Steve Austin in 1997, and the subsequent surgery he was forced to have in 1999 which put him out for a year, had an effect on pro wrestling which is still felt to this day. The initial neck injury eventually forced Austin to change his wrestling style, from a highly technical moveset to one that relied on brawling to prevent aggravating his injury. Austin’s evolution and rise to prominence led to WWE fundamentally changing its overall wrestling style, one would come to be known as “WWE Main Event style”, which they still use to this day, and has become the signature of North American pro wrestling.",
 				"Image":"SteveAustinNeck.jpg"
 			  },
         {
@@ -30,7 +30,7 @@
 				"Name":"Shawn Micheals",
 				"Year":1998,
 				"BodyPart":"Back",
-				"Details":"At the 1998 Royal Rumble, during a casket match against The Undertaker, Shawn Michaels took a bad bump onto the casket itself, and the edge of the lid drove into his back.",
+				"Details":"At the 1998 Royal Rumble, during a casket match against The Undertaker, Shawn Michaels took a bad bump onto the casket itself, and the edge of the lid drove into his back. Michaels’ career was basically over at that point, but he managed to hang around until WrestleMania, where he put over Steve Austin and immediately disappeared, his back ruined, spinal fusion surgery his only option if he wanted to live a normal life. Of course, he would make a miraculous return four years later, his back inexplicably fully healed (no, really, doctors are still baffled), but because of his original retirement, there were no opponents to Steve Austin’s rise to the top of the wrestling world. ",
 				"Image":"ShawnMicheals.jpg"
 			  },
         {
@@ -46,7 +46,7 @@
 				"Name":"Bret Hart",
 				"Year":1999,
 				"BodyPart":"Head",
-				"Details":"In a match with Bill Goldberg, an errant kick gave Hart a serious concussion. Although he attempted to work through it, the swelling on his brain was so serious that doctors immediately ordered him to retire, ending a Hall of Fame career in its prime.",
+				"Details":"Even near the end, WCW still had hope. While they had misused Bret Hart as badly as one could over his short tenure since leaving WWE, he was still out there, one of the few true main event talents left in WCW able to prop up shows by having good matches in the face of bad booking, and also one of the only ones willing to work with talent lower down the card in an attempt to elevate them. Then, in a match will Bill Goldberg, an errant kick gave Hart a serious concussion. Although he attempted to work through it, the swelling on his brain was so serious that doctors immediately ordered him to retire, ending a Hall of Fame career in its prime.",
 				"Image":"BretHart.jpg"
 			  },
         {
