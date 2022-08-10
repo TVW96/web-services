@@ -7,10 +7,11 @@
    .film{
     border:1px solid #E77DC2;
     border-radius: 5px;
-    padding: 5px;
+    padding: 50px;
     margin-bottom:5px;
     position:relative;   
   }
+
  
   .pic{
     position:absolute;
@@ -32,16 +33,11 @@ function bondTemplate(film){
 
   return `
         <div class="film">
-        <b>Film</b>: ${film.Film}<br />
-        <b>Title</b>: ${film.Title}<br />
+        <b>BodyPart</b>: ${film.BodyPart}<br />
         <b>Year</b>: ${film.Year}<br />
-        <b>Director</b>: ${film.Director}<br />
-        <b>Producers</b>: ${film.Producers}<br />
-        <b>Writers</b>: ${film.Writers}<br />
-        <b>Composer</b>: ${film.Composer}<br />
-        <b>Bond</b>: ${film.Bond}<br />
-        <b>Budget</b>: ${film.Budget}<br />
-        <b>Box Office</b>: ${film.BoxOffice}<br />
+        <b>Wrestler</b>: ${film.Name}<br />
+        <b>Brand</b>: ${film.Brand}<br />
+        <b>Details</b>: ${film.Details}<br />
         <div class="pic"><img src="thumbnails/${film.Image}" /></div>
       </div>
   `;
@@ -64,9 +60,9 @@ $(document).ready(function() {
    request.done(function( data ) {
      console.log(data);
 
-let myData = JSON.stringify(data,null,4);
-    myData = "<pre>" + myData + "</pre>";
-    $("#output").html(myData);
+//let myData = JSON.stringify(data,null,4);
+  //  myData = "<pre>" + myData + "</pre>";
+    //$("#output").html(myData);
 
 //use data.title to show the order of films
     $("#filmtitle").html(data.title);
@@ -97,10 +93,10 @@ alert('Error - ' + xhr.status + ': ' + xhr.statusText);
 </script>
 </head>
 	<body>
-	<h1>Bond Web Service</h1>
-		<a href="year" class="category">Bond Films By Year</a><br />
-		<a href="box" class="category">Bond Films By International Box Office Totals</a>
-		<h3 id="filmtitle">Title Will Go Here</h3>
+	<h1>Most Notable Wrestling Injuries</h1>
+		<a href="year" class="category">Injuries By Year</a><br />
+		<a href="box" class="category">Injuries by Body Part</a>
+		<h3 id="filmtitle">This is a Web Service</h3>
 		<div id="films">
       
       <!--
@@ -119,6 +115,6 @@ alert('Error - ' + xhr.status + ': ' + xhr.statusText);
       </div>
       -->
     </div>
-		<div id="output">Results go here</div>
+		<div id="output">By, Troy Washington</div>
 	</body>
 </html>
